@@ -1,0 +1,241 @@
+{
+  "format": 1,
+  "restore": {
+    "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Infraestrutura.Testes\\ByteBank.Infraestrutura.Testes.csproj": {}
+  },
+  "projects": {
+    "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Dados\\ByteBank.Dados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Dados\\ByteBank.Dados.csproj",
+        "projectName": "ByteBank.Dados",
+        "projectPath": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Dados\\ByteBank.Dados.csproj",
+        "packagesPath": "C:\\Users\\everton.galli\\.nuget\\packages\\",
+        "outputPath": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Dados\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\everton.galli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Domain\\ByteBank.Dominio.csproj": {
+                "projectPath": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Domain\\ByteBank.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Domain\\ByteBank.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Domain\\ByteBank.Dominio.csproj",
+        "projectName": "ByteBank.Dominio",
+        "projectPath": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Domain\\ByteBank.Dominio.csproj",
+        "packagesPath": "C:\\Users\\everton.galli\\.nuget\\packages\\",
+        "outputPath": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\everton.galli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Infraestrutura.Testes\\ByteBank.Infraestrutura.Testes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Infraestrutura.Testes\\ByteBank.Infraestrutura.Testes.csproj",
+        "projectName": "ByteBank.Infraestrutura.Testes",
+        "projectPath": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Infraestrutura.Testes\\ByteBank.Infraestrutura.Testes.csproj",
+        "packagesPath": "C:\\Users\\everton.galli\\.nuget\\packages\\",
+        "outputPath": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Infraestrutura.Testes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\everton.galli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Dados\\ByteBank.Dados.csproj": {
+                "projectPath": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Dados\\ByteBank.Dados.csproj"
+              },
+              "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Domain\\ByteBank.Dominio.csproj": {
+                "projectPath": "R:\\Ens Tecnico\\DESENVOLVIMENTO DE SISTEMAS\\3 Modulo\\DesenvSistemasII\\ProjetosdeTrabalho\\ByteBank\\ByteBank.Domain\\ByteBank.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+Com base no projeto de estudo (ByteBank) escolha uma das classes de teste ( ContaCorrenteRepositorioTestes, ClienteRepositorioTestes ou AgenciaRepositorioTestes) e crie os testes utilizando o conceito Mock com Stub:
+
+ 1 método de teste para a operação de adicionar
+ 1 método de teste para a operação de atualizar
+ 1 método de teste para a operação de excluir
+ 1 método de teste para a operação de Obter (Obter todos  ou obter por ID)
+
+
+Solution exemplo está em R:\Ens Tecnico\DESENVOLVIMENTO DE SISTEMAS\3 Modulo\DesenvSistemasII\ProjetosdeTrabalho\ByteBank 
+  Projeto: ByteBank.Infraestrutura.Testes.csproj
+  Classe: AgenciaRepositorioTestes
+  Método: TestaAdiconarAgenciaMockII()
+
